@@ -9,7 +9,8 @@ const HomePage = () => {
     <div>
         <navbar />
         <div className="hero-section">
-        <img src={`${process.env.PUBLIC_URL}/images/image2.jpg`} alt="School of Technology" className="hero-image" />
+        <img src={`${import.meta.env.BASE_URL}images/image2.jpg`} alt="School of Technology" className="hero-image" />
+
 
 
 
